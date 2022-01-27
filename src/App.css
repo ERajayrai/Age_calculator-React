@@ -1,11 +1,10 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  background-color: #072c36;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -15,13 +14,15 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-bottom: 4px solid #031a20;
+  padding: 5px;
 }
 
 .App-link {
@@ -35,4 +36,123 @@
   to {
     transform: rotate(360deg);
   }
+}
+.datePickar{
+  width: 200px;
+  border-radius: 10px;
+  border:2px solid #61dafb;
+  background-color: #031a20;
+  color: #61dafb;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+}
+.dateSelection{
+  text-align: center;
+  display: flex;
+  padding: 10px;
+  height: 20vh;
+  justify-content: center;
+  vertical-align: middle;
+}
+.main-section{
+  width: 400px;
+  text-align: center;
+  display: flex;
+  background-color: #02242e;
+  padding: 10px;
+  height: 300;
+  border-top:2px solid #067d9e;
+  border-left:2px solid #067d9e;
+  border-right:2px solid #067d9e;
+  justify-content: center;
+  vertical-align: middle;
+}
+.calculateageBtn{
+  background-color: whitesmoke;
+  color: #180213;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 2px solid #61dafb;
+  height: 43px;
+}
+.calculateageBtn:hover{
+  box-shadow: 0 5px 50px 0px #15f4ee inset,
+              0 5px 50px 0px #15f4ee,
+              0 5px 50px 0px #15f4ee inset,
+              0 5px 50px 0px #15f4ee; 
+  font-weight: 800;          
+}
+.datePickar:hover{
+  box-shadow: 0 5px 50px 0px #15f4ee inset,
+              0 5px 50px 0px #15f4ee,
+              0 5px 50px 0px #15f4ee inset,
+              0 5px 50px 0px #15f4ee;
+  color: #9e0606;  
+  font-weight: 800;          
+}
+.ageSelection{
+  text-align: center;
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+  height: 20vh;
+  justify-content: center;
+  vertical-align: middle;
+}
+.ageResult{
+  width: 400px;
+  text-align: center;
+  display: flex;
+  background-color: #02242e;
+  margin-top: 10px;
+  padding: 10px;
+  height: 300;
+  color: #067d9e;
+  border:2px solid #067d9e;
+  justify-content: center;
+}
+.container{
+  border: 4px solid #067d9e;
+}
+.dd{
+  width: 40px;
+  height:35px;
+  border-radius: 25px;
+  border:2px solid #282c34;
+  color:whitesmoke;
+  font-size: 20px;
+  font-weight: 700;
+}
+.mm{
+  width: 40px;
+  height:35px;
+  border-radius: 25px;
+  border:2px solid #282c34;
+  color:whitesmoke;
+  font-size: 20px;
+  font-weight: 700;
+}
+.yy{
+  padding: 2px;
+  width: 40px;
+  height:35px;
+  border-radius: 25px;
+  border:2px solid #282c34;
+  color:whitesmoke;
+  font-size: 20px;
+  font-weight: 700;
+}
+.marque{
+  color:#15f4ee;
+}
+.spinner{
+  justify-content: center;
+  margin-top: 20%;
+}
+.loooder{
+  text-align: center;
+  margin-left: 50%;
+  
 }
